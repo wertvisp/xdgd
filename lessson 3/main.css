@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+
+} 
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.wrapper{
+    margin: auto;
+max-width: 1300px;
+}
+
+nav {
+    padding: 16px 0;
+    background-color: #f3f3f3;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    }
+    nav ul li:first-child {
+    margin-left: 0px;
+    }
+
+    a {
+        color: #080101;
+        text-decoration: none;
+    }
+    
+    p{
+        font-size: large;
+    }
